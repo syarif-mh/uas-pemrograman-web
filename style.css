@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+.hero-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./image/home-backround.jpg');
+  background-size: cover;
+  min-height: 1000px;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
+
+.card-custom {
+  min-height: 250px;
+  background-size: cover;
+  background-position: center;
+  border: none;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.card-custom:hover {
+  transform: translateY(-10px);
+}
+
+.card-custom .card-body {
+  text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
